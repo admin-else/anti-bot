@@ -1,0 +1,4 @@
+name: anti-bot
+version: '${version}'
+main: de.adminelse.antibot.Anti_bot
+api-version: '1.20'
