@@ -7,7 +7,6 @@ public final class Anti_bot extends JavaPlugin {
     static Anti_bot plugin;
     @Override
     public void onEnable() {
-        getLogger().info("wtfff");
         getServer().getPluginManager().registerEvents(new PlayerJoinListener(), this);
         plugin = this;
     }
